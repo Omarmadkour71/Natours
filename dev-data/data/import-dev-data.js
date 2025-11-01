@@ -24,9 +24,9 @@ const importData = async () => {
     await Tour.create(tours);
     await Users.create(users);
     await Reviews.create(reviews);
-    console.log("data imported Succesfully");
+    //console.log("data imported Succesfully");
   } catch (err) {
-    console.log(`error while importing data to database: ${err}`);
+    //console.log(`error while importing data to database: ${err}`);
   }
   process.exit();
 };
@@ -36,9 +36,9 @@ const deleteData = async () => {
     await Tour.deleteMany();
     await Users.deleteMany();
     await Reviews.deleteMany();
-    console.log("data deleted Succesfully");
+    //console.log("data deleted Succesfully");
   } catch (err) {
-    console.log(`error while deleting data from database: ${err}`);
+    //console.log(`error while deleting data from database: ${err}`);
   }
   process.exit();
 };

@@ -7,6 +7,7 @@ const rateLimit = require("express-rate-limit");
 const perfectSanitize = require("perfect-express-sanitizer");
 const expressSanitize = require("express-mongo-sanitize");
 const hpp = require("hpp");
+const compression = require("compression");
 const toursRouter = require("./routes/toursRouter");
 const usersRouter = require("./routes/usersRouter");
 const reviewRouter = require("./routes/reviewRouter");
@@ -131,6 +132,9 @@ const limiter = rateLimit({
   message: "Too many request in short time! please try again later"
 });
 app.use("/api", limiter);
+
+// Response Compression Middleware
+app.use(compression());
 
 // ROUTES
 //app.use("/login", viewRouter);

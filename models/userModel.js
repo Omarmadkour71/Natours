@@ -95,7 +95,7 @@ userSchema.methods.isPasswordChanged = function (JWTiat) {
       this.passwordChangedAt.getTime() / 1000,
       10
     );
-    console.log(changedTimeStamp, JWTiat);
+    //console.log(changedTimeStamp, JWTiat);
     return JWTiat < changedTimeStamp;
   }
   return false;

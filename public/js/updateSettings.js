@@ -20,6 +20,6 @@ export const updateSettings = async (data, type) => {
     }
   } catch (err) {
     showAlert("error", "something went wrong! please try again");
-    console.log(err.response.data.message);
+    //console.log(err.response.data.message);
   }
 };
