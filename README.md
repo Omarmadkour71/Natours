@@ -15,7 +15,7 @@ A comprehensive, robust RESTful API and Server-Side Rendered (SSR) web applicati
 - **View Engine:** Pug (Server-Side Rendering)
 - **Authentication:** JSON Web Tokens (JWT), bcryptjs
 - **Security:** express-rate-limit, helmet, express-mongo-sanitize, xss-clean, hpp
-- **Payments:** Stripe API (if implemented)
+- **Payments:** Stripe API
 - **Emails:** Nodemailer, Mailtrap/SendGrid
 
 ## 🧠 Advanced Backend Features
