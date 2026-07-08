@@ -6,7 +6,7 @@
 ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
 ![Pug](https://img.shields.io/badge/Pug-A86454?style=for-the-badge&logo=pug&logoColor=white)
 
-A comprehensive, robust RESTful API and Server-Side Rendered (SSR) web application for a fictional tour booking company. This project was built to demonstrate advanced backend architectural concepts, specifically focusing on complex NoSQL database modeling, data security, and efficient API design.
+A comprehensive, robust RESTful API and Server-Side Rendered (SSR) web application for tour booking. This project was built to demonstrate advanced backend architectural concepts, specifically focusing on complex NoSQL database modeling, data security, and efficient API design.
 
 ## 🚀 The Tech Stack
 
@@ -16,7 +16,6 @@ A comprehensive, robust RESTful API and Server-Side Rendered (SSR) web applicati
 - **Authentication:** JSON Web Tokens (JWT), bcryptjs
 - **Security:** express-rate-limit, helmet, express-mongo-sanitize, xss-clean, hpp
 - **Payments:** Stripe API
-- **Emails:** Nodemailer, Mailtrap/SendGrid
 
 ## 🧠 Advanced Backend Features
 
